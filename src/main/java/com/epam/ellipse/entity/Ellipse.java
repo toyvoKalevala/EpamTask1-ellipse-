@@ -2,8 +2,8 @@ package com.epam.ellipse.entity;
 
 public class Ellipse {
 
-    private final Point pointOne;
-    private final Point pointTwo;
+    private Point pointOne;
+    private Point pointTwo;
 
     public Ellipse(Point pointOne, Point pointTwo) {
         this.pointOne = pointOne;
@@ -16,6 +16,14 @@ public class Ellipse {
 
     public Point getPointTwo() {
         return pointTwo;
+    }
+
+    public void setPointOne(Point pointOne) {
+        this.pointOne = pointOne;
+    }
+
+    public void setPointTwo(Point pointTwo) {
+        this.pointTwo = pointTwo;
     }
 
     @Override

@@ -14,5 +14,4 @@ public class DataValidator {
         LOGGER.info("Start to validate line " + line);
         return Pattern.matches(VALID_LINE_REGEX, line);
     }
-
 }

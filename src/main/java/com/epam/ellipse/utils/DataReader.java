@@ -1,7 +1,5 @@
 package com.epam.ellipse.utils;
 
-import com.epam.ellipse.utils.DataException;
-import jdk.nashorn.internal.runtime.Context;
 import org.apache.log4j.Logger;
 
 import java.io.*;
