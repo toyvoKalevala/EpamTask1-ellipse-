@@ -47,4 +47,11 @@ public class IdentifiableEllipse extends Ellipse implements Observable {
             observer.update(this);
         }
     }
+
+    @Override
+    public String toString() {
+        return "IdentifiableEllipse{" +
+                "id=" + id + super.getPointOne() + super.getPointTwo() +
+                '}';
+    }
 }

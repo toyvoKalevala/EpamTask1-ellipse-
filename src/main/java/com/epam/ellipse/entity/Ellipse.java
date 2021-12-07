@@ -33,4 +33,12 @@ public class Ellipse {
         Ellipse ellipse = (Ellipse) o;
         return pointOne.equals(ellipse.pointOne) && pointTwo.equals(ellipse.pointTwo);
     }
+
+    @Override
+    public String toString() {
+        return "Ellipse{" +
+                "pointOne=" + pointOne +
+                ", pointTwo=" + pointTwo +
+                '}';
+    }
 }
