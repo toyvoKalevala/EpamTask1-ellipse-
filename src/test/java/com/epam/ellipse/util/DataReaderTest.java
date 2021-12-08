@@ -1,4 +1,4 @@
-package com.epam.ellipse.utils;
+package com.epam.ellipse.util;
 
 import org.junit.Assert;
 import org.junit.Test;

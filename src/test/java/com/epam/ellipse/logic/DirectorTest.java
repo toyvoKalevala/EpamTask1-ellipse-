@@ -2,9 +2,9 @@ package com.epam.ellipse.logic;
 
 import com.epam.ellipse.entity.Ellipse;
 import com.epam.ellipse.entity.Point;
-import com.epam.ellipse.utils.DataException;
-import com.epam.ellipse.utils.DataReader;
-import com.epam.ellipse.utils.DataValidator;
+import com.epam.ellipse.util.DataException;
+import com.epam.ellipse.util.DataReader;
+import com.epam.ellipse.util.DataValidator;
 import org.junit.Assert;
 import org.junit.Test;
 import org.mockito.Mockito;

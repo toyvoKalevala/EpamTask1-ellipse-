@@ -1,4 +1,4 @@
-package com.epam.ellipse.utils;
+package com.epam.ellipse.util;
 
 import org.apache.log4j.Logger;
 

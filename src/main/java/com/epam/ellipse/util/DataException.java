@@ -1,4 +1,4 @@
-package com.epam.ellipse.utils;
+package com.epam.ellipse.util;
 
 public class DataException extends Exception {
 
