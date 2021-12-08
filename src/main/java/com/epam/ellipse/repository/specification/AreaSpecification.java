@@ -1,4 +1,4 @@
-package com.epam.ellipse.repository.specifications;
+package com.epam.ellipse.repository.specification;
 
 import com.epam.ellipse.entity.IdentifiableEllipse;
 import com.epam.ellipse.logic.Calculator;

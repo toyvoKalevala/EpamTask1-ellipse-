@@ -2,7 +2,7 @@ package com.epam.ellipse.repository;
 
 import com.epam.ellipse.entity.IdentifiableEllipse;
 import com.epam.ellipse.entity.Point;
-import com.epam.ellipse.repository.specifications.IdSpecification;
+import com.epam.ellipse.repository.specification.IdSpecification;
 import org.junit.Assert;
 import org.junit.Test;
 import org.mockito.Mockito;

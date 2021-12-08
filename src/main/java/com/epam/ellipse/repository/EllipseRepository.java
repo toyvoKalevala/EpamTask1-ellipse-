@@ -1,7 +1,7 @@
 package com.epam.ellipse.repository;
 
 import com.epam.ellipse.entity.IdentifiableEllipse;
-import com.epam.ellipse.repository.specifications.Specification;
+import com.epam.ellipse.repository.specification.Specification;
 
 import java.util.Comparator;
 import java.util.List;
