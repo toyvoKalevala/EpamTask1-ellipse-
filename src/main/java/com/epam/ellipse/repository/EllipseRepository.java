@@ -16,5 +16,5 @@ public interface EllipseRepository {
 
     List<IdentifiableEllipse> query(Specification specification);
 
-    void sort(Comparator<IdentifiableEllipse> comparator);
+    List<IdentifiableEllipse> sort(Comparator<IdentifiableEllipse> comparator);
 }

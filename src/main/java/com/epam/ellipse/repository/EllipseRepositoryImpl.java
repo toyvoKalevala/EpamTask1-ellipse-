@@ -36,10 +36,10 @@ public class EllipseRepositoryImpl implements EllipseRepository {
     }
 
     @Override
-    public void sort(Comparator<IdentifiableEllipse> comparator) {
+    public List<IdentifiableEllipse> sort(Comparator<IdentifiableEllipse> comparator) {
         List<IdentifiableEllipse> ellipsesList = new ArrayList<>(store.values());
         Collections.sort(ellipsesList, comparator);
-        System.out.println(ellipsesList);
+        return ellipsesList;
     }
 
     @Override
